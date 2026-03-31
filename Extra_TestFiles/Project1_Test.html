@@ -1,0 +1,50 @@
+<body style="font-size:12pt; font-family:Arial">
+    <style>
+        body table {
+            width: 100%;
+            empty-cells: show;
+        }
+
+        .custom-table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        .custom-cell {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: left;
+            width: 50%;
+        }
+
+        .custom-block {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center;
+            width: 50%;
+            height: 50%
+        }
+
+        .Table-cell {
+            padding: 8px;
+            text-align: left;
+            width: 50%;
+        }
+
+        .header-cell {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .block {
+            background: #dadffc;
+            width: 100%;
+            height: 12vh;
+        }
+    </style> <br /> <br />
+    <h1 style="text-align:center;font-size:12pt; font-family:Arial">@Model.HeaderfootercorresVM.TemplateName</h1></br>
+    <p margin-left: 0px; margin-top: -5px""><br />The E-Claim file you submitted on @Model.Submissiondate was reviewed
+        by agency staff and has been <b>approved</b>. Advise your furloughed employees that they may begin requesting
+        benefits starting @Model.EffectiveDate. If you have questions, contact us at @Model.UIEClaimsURL.</p> <br />
+</body>
